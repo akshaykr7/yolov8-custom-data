@@ -5,6 +5,8 @@ import xml.etree.ElementTree as ET
 classes=['aeroplane','bicycle','bird','boat','bottle','bus','car','cat','chair','cow','diningtable',
          'dog','horse','motorbike','person','pottedplant','sheep','sofa','train','tvmonitor']
 
+print(f"Total no. of classes")
+
 def preprocess_xml(filename):
   tree = ET.parse(filename)
   root = tree.getroot()
