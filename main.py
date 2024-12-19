@@ -32,3 +32,4 @@ def preprocess_xml(filename):
 
 bb = preprocess_xml("D:/Lab Work/ML_Projects/ML_Data/Object Detection Datasets/VOC2012/Annotations/2007_000027.xml")
 print(bb)
+
